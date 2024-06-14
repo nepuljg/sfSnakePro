@@ -4,8 +4,6 @@
 
 ## 程序介绍
 
-这是2022年春季复旦大学面向对象程序设计课程大作业
-
 基于SFML图形库的贪吃蛇小游戏
 
 原版代码作者 [jhpy1024](https://github.com/jhpy1024/sfSnake)
@@ -18,7 +16,6 @@
 
 - Windows 11 专业版
 - GCC 11.2.0
-- MinGW-w64 9.0.0 (linked with msvcrt)
 - GNU Make 4.3
 - SFML 2.5.1
 - 全部 static 编译
