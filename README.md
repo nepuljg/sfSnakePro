@@ -42,9 +42,10 @@
 
 ![OptionScreenShot](doc/image/OptionScreenShot.png)
 
-## 下载
+## 运行
 
-Release下载之后解压就可以了
+在linux环境下 cmake . 之后 make 胜场 main程序
+./main运行
 
 ## license
 
