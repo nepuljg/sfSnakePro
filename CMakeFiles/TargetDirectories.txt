@@ -1,0 +1,3 @@
+/home/slow/sfSnakePro/CMakeFiles/main.dir
+/home/slow/sfSnakePro/CMakeFiles/edit_cache.dir
+/home/slow/sfSnakePro/CMakeFiles/rebuild_cache.dir

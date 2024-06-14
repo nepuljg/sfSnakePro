@@ -1,0 +1,41 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/main.dir/src/Game.cpp.o"
+  "CMakeFiles/main.dir/src/Game.cpp.o.d"
+  "CMakeFiles/main.dir/src/element/Button.cpp.o"
+  "CMakeFiles/main.dir/src/element/Button.cpp.o.d"
+  "CMakeFiles/main.dir/src/element/Fruit.cpp.o"
+  "CMakeFiles/main.dir/src/element/Fruit.cpp.o.d"
+  "CMakeFiles/main.dir/src/element/Grid.cpp.o"
+  "CMakeFiles/main.dir/src/element/Grid.cpp.o.d"
+  "CMakeFiles/main.dir/src/element/OptionButton.cpp.o"
+  "CMakeFiles/main.dir/src/element/OptionButton.cpp.o.d"
+  "CMakeFiles/main.dir/src/element/Snake.cpp.o"
+  "CMakeFiles/main.dir/src/element/Snake.cpp.o.d"
+  "CMakeFiles/main.dir/src/element/TitleSprite.cpp.o"
+  "CMakeFiles/main.dir/src/element/TitleSprite.cpp.o.d"
+  "CMakeFiles/main.dir/src/main.cpp.o"
+  "CMakeFiles/main.dir/src/main.cpp.o.d"
+  "CMakeFiles/main.dir/src/screen/AboutScreen.cpp.o"
+  "CMakeFiles/main.dir/src/screen/AboutScreen.cpp.o.d"
+  "CMakeFiles/main.dir/src/screen/GameOverScreen.cpp.o"
+  "CMakeFiles/main.dir/src/screen/GameOverScreen.cpp.o.d"
+  "CMakeFiles/main.dir/src/screen/GameScreen.cpp.o"
+  "CMakeFiles/main.dir/src/screen/GameScreen.cpp.o.d"
+  "CMakeFiles/main.dir/src/screen/HelpScreen.cpp.o"
+  "CMakeFiles/main.dir/src/screen/HelpScreen.cpp.o.d"
+  "CMakeFiles/main.dir/src/screen/MenuScreen.cpp.o"
+  "CMakeFiles/main.dir/src/screen/MenuScreen.cpp.o.d"
+  "CMakeFiles/main.dir/src/screen/OptionScreen.cpp.o"
+  "CMakeFiles/main.dir/src/screen/OptionScreen.cpp.o.d"
+  "CMakeFiles/main.dir/src/screen/PauseScreen.cpp.o"
+  "CMakeFiles/main.dir/src/screen/PauseScreen.cpp.o.d"
+  "CMakeFiles/main.dir/src/screen/Screen.cpp.o"
+  "CMakeFiles/main.dir/src/screen/Screen.cpp.o.d"
+  "main"
+  "main.pdb"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/main.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

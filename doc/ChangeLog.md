@@ -4,7 +4,7 @@ this change log is to log the difference from origin sfSnake on https://github.c
 
 # change log
 
-## 20220508
+## 20240610
 
 1. modify `void GameScreen::generateFruit()` in `GameScreen.cpp`
 ```c++
@@ -52,7 +52,7 @@ this change log is to log the difference from origin sfSnake on https://github.c
 ```
 将已弃用(deprecated)的`setColor`方法更改为建议使用的`setFillColor`方法
 
-## 20220520
+## 20240611
 
 1. 大幅修改 `Snake` 类的实现。(70%)
     1. 节点
@@ -88,7 +88,7 @@ this change log is to log the difference from origin sfSnake on https://github.c
 5. makefile的优化
    使用static编译，让最终的程序方便分发。
 
-## 20220520
+## 20240612
 
 1. `Fruit` 的更改
     1. 将 `Fruit` 类修改为struct，因为没有什么值得私有的成员变量
@@ -100,7 +100,7 @@ this change log is to log the difference from origin sfSnake on https://github.c
     1. 在 `Grid.h` 和 `Grid.cpp` 中声明并实现了网格类和网格的渲染
     2. ~~实现了按G键切换开启、关闭网格状态~~
 
-## 20220524
+## 20240613
 
 1. 新增游戏玩法
     1. 按空格键加速
@@ -109,7 +109,7 @@ this change log is to log the difference from origin sfSnake on https://github.c
 
 2. UI优化，新增自己画的主题title `logo.png`，并且设计了UI交互逻辑
 
-## 20220525
+## 20240614
 
 1. 增加了 `OptionScreen`, 现在可以在`OptionScreen`里面切换颜色状态了
    1. `optionScreen`使用`OptionButton`进行设置
@@ -118,21 +118,21 @@ this change log is to log the difference from origin sfSnake on https://github.c
 2. 小幅度优化了UI设计，新增返回UI和重置UI
 3. 设计了键盘锁和鼠标锁，防止误触
 
-## 20220526
+## 20240614
 
 1. 删除手柄控制和键盘控制窗口切换
 2. 全面统一UI设计，通过`Button`类操作并显示
 3. 增加 `PauseScreen` 类，在游戏中暂停可以进入暂停界面，可以进行设置、重新开始、退出、返回等操作
 4. 游戏中实时显示分数
 
-## 20220527
+## 20240614
 
 1. 新增帮助界面和关于界面, `HelpScreen` 和 `AboutScreen`
 2. 在首页，暂停页，结束页添加帮助按钮和关于按钮
 3. 将 `OptionButton` 类独立出来，方便复用
 4. 到这里就不做大的改动了，整体定型
 
-## 20220529
+## 20240614
 
 1. 将 `TitleSprite` 类独立出来，便于代码复用
 2. 统一了变量命名规范，增加了一些注释
@@ -140,7 +140,7 @@ this change log is to log the difference from origin sfSnake on https://github.c
 4. 将水果颜色的定义移动到 `Game.cpp`
 5. 新增首次游戏前先跳转到帮助界面的功能
 
-## 20220530
+## 20240614
 
 1. 修改了 bgm
 2. 继续写设计说明文档和 `README.txt` 

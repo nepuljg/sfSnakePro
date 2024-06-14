@@ -6,7 +6,7 @@ if(NOT CMAKE_BUILD_TYPE)
   set(CMAKE_BUILD_TYPE Debug)
 endif()
 
-find_package(SFML 2.5 COMPONENTS
+find_package(SFML 2.5.1 COMPONENTS
   system window graphics audio REQUIRED)
 
 # set(BUILD_SHARED_LIBS OFF)
